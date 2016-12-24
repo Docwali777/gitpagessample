@@ -1,0 +1,22 @@
+{
+  "name": "basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "basic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Docwali777/gitpagessample.git"
+  },
+  "author": "wali gauvin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Docwali777/gitpagessample/issues"
+  },
+  "homepage": "https://github.com/Docwali777/gitpagessample#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
