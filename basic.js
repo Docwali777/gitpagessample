@@ -7,7 +7,7 @@ app.get("/", (req, res)=>{
   res.render("home")
 })
 
-app.get("/about", (req, res)=>{
+app.get("/about.html", (req, res)=>{
   res.render("about")
 })
 
