@@ -1,6 +1,11 @@
 
 body {
 background: #7CF100;
+  font-family: 'Arima Madurai', cursive;
+}
+
+.navbar-brand {
+  font-family: 'Arima Madurai', cursive;
 }
 
 div {

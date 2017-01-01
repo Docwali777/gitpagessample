@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/Docwali777/gitpagessample#readme",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "hbs": "^4.0.1",
+    "path": "^0.12.7"
   }
 }
