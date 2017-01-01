@@ -1,13 +1,27 @@
 
 body {
-background: #7CF100;
-  font-family: 'Arima Madurai', cursive;
+  background-image: url("/img/healthfoods.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white
 }
 
-.navbar-brand {
-  font-family: 'Arima Madurai', cursive;
+.jumbotron {
+    background-color: rgba(248,248,248, 0);
 }
 
-div {
-  color: black
+  .navbar-default {
+    font-family: 'Arima Madurai', cursive;
+    background-color: rgba(248,248,248, 0);
+    border: none
+}
+
+.navbar > li > a {
+
+    color:  #ddd;
+}
+
+#frontEndCert {
+  height: 100px;
+  width: 100px
 }

@@ -6,9 +6,8 @@ var app = express();
 
 app.set("port", process.env.PORT || 3000);
 
-app.set(path.join(__dirname + "/public"))
 app.set("view engine", "hbs")
-
+app.use(express.static(path.join(__dirname, '/public')));
 hbs.registerPartials(__dirname + '/views/partials')
 
 //app.use(express.static(__dirname + "/public"))
