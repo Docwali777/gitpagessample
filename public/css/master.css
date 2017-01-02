@@ -2,26 +2,57 @@
 body {
   background-image: url("/img/StockSnap_9M1HWW2JFV.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
-  color: white
+  background-size: cover;
+
 }
+
+.navbar-default {
+  background-color: rgba(0, 0, 0, 0) ;
+  border-color:rgba(0, 0, 0, 0) ;
+  border-radius: 0;
+  color: #fff;
+  font-family: 'Arima Madurai';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: white;
+background-color: rgba(0, 0, 0, 0.2);
+font-size: 2em
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+  font-size: 2em
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus
+ {
+   color: white;
+   background-color: rgba(0, 0, 0, 0.2)
+}
+.navbar-default.navbar-nav>.actice>a, ,
+.navbar-default.navbar-nav>.actice>a:hover,
+.navbar-default.navbar-nav>.actice>a:focus {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.2)
+}
+.navbar-default.navbar-text {
+  color: #fff
+}
+.navbar-default.navbar-toggle {
+  background-color: #428bca;
+
+}
+.navbar-default.navbar-toggle:hover,
+.navbar-default.navbar-toggle:focus {
+  background-color: #428bca
+}
+
 
 .jumbotron {
     background-color: rgba(248,248,248, 0);
-}
-
-  .navbar-default {
-    font-family: 'Arima Madurai', cursive;
-    background-color: rgba(248,248,248, 0);
-    border: none
-}
-
-.navbar > li > a {
-
-    color:  #ddd;
-}
-
-#frontEndCert {
-  height: 100px;
-  width: 100px
 }
